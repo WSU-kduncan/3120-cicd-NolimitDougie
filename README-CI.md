@@ -51,15 +51,20 @@ All parts for the project are due 3/29
 
 ### Documentation
 
-Create `README-CI.md` in main folder of your repo that details the following:
-
 - CI Project Overview
   - (what are you doing, why, what tools)
+ 
 - Run Project Locally
   - how to install docker + dependencies (WSL2, for example)
+  
   - how to build an image from the `Dockerfile`
+  - `docker build -t webserver`
+  
   - how to run the container
+  - ` docker run -d --name httpd -p 1350:80 webserver`
+  
   - how to view the project running in the container (open a browser...go to IP and port...)
+  - `localhost:1350`
 
 ## Part 2 - GitHub Actions and DockerHub
 
