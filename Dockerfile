@@ -1,14 +1,14 @@
 # FROM python:3
 
-FROM python:3
+FROM ubuntu/apache2
 
 # Installed dependencies
-#RUN 
-
+RUN rm -rf /var/www/html/index.html
 
 # Copy our project files to somewhere on the container filesystem
 
-COPY code.py /code/ 
+COPY ./website/ /usr/local/apache2/htdocs/
 
 # CMD python code.py (based on location in the container)
-CMD["python", "/code/code.py"]
+
+EXPOSE 1551
