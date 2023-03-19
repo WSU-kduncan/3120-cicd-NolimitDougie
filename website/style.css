@@ -1,0 +1,62 @@
+#name {
+margin: 0 auto;
+font-family: 'Trajan Pro', sans-serif;
+font-size: 100px;
+/*background-color: rgb(100, 100, 104); */
+display: inline-block;
+margin-bottom: 50px;
+
+border-radius: 20px;
+}
+body {
+    background-color: rgb(163, 168, 168);
+}
+
+#dummy {
+
+
+font-size: 20px;
+}
+
+#image {
+    max-width: 500px;
+    max-height: 800px;
+    transition: transform 0.6s;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#image:hover {
+    transform: scale(1.1);
+}
+.box {
+    display: flex;
+    flex-direction: row; 
+}
+.box-v {
+    display: flex;
+    flex-direction: column;
+}
+
+#subTitle {
+    font-family: 'Trajan Pro', sans-serif;
+    font-size: 40px;
+}
+
+#image1 {
+    max-width: 400px;
+    max-height: 400px;
+    transition: transform 0.6s;
+    margin-left: 50px;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.logo {
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
