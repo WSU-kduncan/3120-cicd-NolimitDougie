@@ -30,6 +30,7 @@ Dougie Townsell
 - Run Project Locally
   - how to install docker + dependencies (WSL2, for example)
   
+  Downloaded the Docker Desktop for Mac then moved Docker into the Applications folder from there I was able to start Docker up
   
   From inside the `3120-cicd-NolimitDougie` folder.
   
@@ -37,10 +38,10 @@ Dougie Townsell
   - `docker build -t webserver .`
   
   - how to run the container
-  - ` docker run -d --name httpd -p 1350:80 webserver`
+  - ` docker run -d --name httpd -p 80:80 webserver`
   
   - how to view the project running in the container (open a browser...go to IP and port...)
-  - `localhost:1350`
+  - `localhost:80`
 
 ## Part 2 - GitHub Actions and DockerHub
 
