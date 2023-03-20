@@ -1,38 +1,11 @@
 # Project 4
 
-- [Objectives](#Objectives)
-- [Project Overview](#Project-Overview)
-- [Part 1 - Dockerize it](#Part-1---Dockerize-it)
-- [Part 2 - GitHub Actions and DockerHub](#Part-2---GitHub-Actions-and-DockerHub)
-- [Part 3 - Diagramming](#Part-3---Diagramming)
-- [Submission](#Submission)
-- [Rubric](Rubric.md)
+Dougie Townsell 
 
 ## Objectives
 
 - Containerize an application with Docker
 - Automate the project pipeline with GitHub Actions - continuous integration
-
-## Project Overview
-
-For this project you will be creating a fresh repository. The link is in Pilot under Content - Projects - CI -> CD. This is the repo you will be using for Projects 4 & 5.
-
-The documentation bullet points are written linearly.  As long as the information can be found, I am okay with you organizing it nicely.
-
-## Parts & Milestones
-
-Completion of each milestone **by the date specified for the milestone** will get you 5%
-of extra credit per milestone date met. To qualify, you must submit your project on the milestone date to the Dropbox for Project 4 in Pilot.
-
-All parts for the project are due 3/29
-
-- [Part 1 - Dockerize it](#Part-1---Dockerize-it)
-  - Milestone due 3/20
-- [Part 2 - GitHub Actions and DockerHub](#Part-2---GitHub-Actions-and-DockerHub)
-  - Milestone due 3/27
-- [Part 3 - Diagramming](#Part-3---Diagramming)
-  - All parts are due 3/29
-  - No EC
 
 ## Part 1 - Dockerize it
 
@@ -58,7 +31,7 @@ All parts for the project are due 3/29
   - how to install docker + dependencies (WSL2, for example)
   
   
-  From inside the `3120-cicd-NolimitDougie` repo
+  From inside the `3120-cicd-NolimitDougie` folder.
   
   - how to build an image from the `Dockerfile`
   - `docker build -t webserver .`
