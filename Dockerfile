@@ -12,4 +12,4 @@ COPY ./website/ /usr/local/apache2/htdocs/
 
 # CMD python code.py (based on location in the container)
 
-Expose 1350
+#Expose 1350
