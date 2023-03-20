@@ -57,8 +57,11 @@ All parts for the project are due 3/29
 - Run Project Locally
   - how to install docker + dependencies (WSL2, for example)
   
+  
+  From inside the `3120-cicd-NolimitDougie` repo
+  
   - how to build an image from the `Dockerfile`
-  - `docker build -t webserver`
+  - `docker build -t webserver .`
   
   - how to run the container
   - ` docker run -d --name httpd -p 1350:80 webserver`
