@@ -13,7 +13,7 @@ Dougie Townsell
 
 - CI Project Overview
  
-  - The purpose of this part is to work with building images from stratch and leaninng how to create images from a docker file. Containers are isolated processes that excutes code from the docker image 
+The purpose of this part is to work with building images from stratch and leaninng how to create images from a docker file. Docker images are a template configured with source codes, libraries, external dependencies, tools, and other miscellaneous files that is needed for the container. Containers are isolated processes that excutes code from the docker image 
  
 - Run Project Locally
   - how to install docker + dependencies (WSL2, for example)
