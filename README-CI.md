@@ -62,6 +62,7 @@ From the Github repo `3120-cicd-NolimitDougie`
 - On the left of the tool bar went and found `Secerets and variables` then clicked on `actions`
 - Clicked on `New repository secret`
 - Inputted a name in for the secret
+- Put in my Docker Hub password in for the secret
 
 - Behavior of GitHub workflow
   - what does it do and when
