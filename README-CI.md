@@ -56,10 +56,13 @@ From `Docker hub`
 
 ## Github Actions
 
-- Configuring GitHub Secrets
-  - How to set a secret
-  - What secret(s) are set for this project
-    - Note: do not copy paste your secrets into your documentation
+From the Github repo '3120-cicd-NolimitDougie`
+
+- Clicked on `settings`
+- On the left of the tool bar went and found `Secerets and variables` then clicked on `actions`
+- Clicked on `New repository secret`
+- Inputted a name in for the secret
+
 - Behavior of GitHub workflow
   - what does it do and when
   - what variables in workflow are custom to your project
