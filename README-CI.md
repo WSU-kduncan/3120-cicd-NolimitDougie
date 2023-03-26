@@ -33,25 +33,18 @@ The purpose of this part is to work with building images from stratch and leanin
 
 ## Part 2 - GitHub Actions and DockerHub
 
-### Tasks
-
-- Create DockerHub account: https://hub.docker.com/
-  - select Free tier if prompted
-- Create Public Repository in DockerHub
-- Set GitHub Secrets named DOCKER_USERNAME and DOCKER_PASSWORD with your respective information filled out.
-- Set up GitHub Actions workflow to build and push docker image to DockerHub
-  - Use workflow templated here: https://docs.github.com/en/actions/guides/publishing-docker-images#publishing-images-to-docker-hub
-
 ### Documentation
 
 - Add to `README-CI.md` to include:
 
 - Process to create public repo in DockerHub
 
+## Docker Hub
+
 From `Docker hub` 
  - Clicked on `Repositories`
  - Clicked on `Create repository`
- - Made a name and set it to `public`
+ - Made a name `dtown-1` and set it to `public`
 
 
 - How to authenticate with DockerHub via CLI using Dockerhub credentials
