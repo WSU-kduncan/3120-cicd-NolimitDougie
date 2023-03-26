@@ -46,15 +46,14 @@ From `Docker hub`
  - Clicked on `Create repository`
  - Made a name `dtown-1` and set it to `public`
 
-
 - How to authenticate with DockerHub via CLI using Dockerhub credentials
   - what credentials would you recommend providing?
 
-
 - How to push container image to Dockerhub (without GitHub Actions)
 
+- `docker push dtown12/dtown-1:latest`
 
-
+## Github Actions
 
 - Configuring GitHub Secrets
   - How to set a secret
