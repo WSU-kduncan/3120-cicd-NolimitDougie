@@ -46,12 +46,13 @@ From `Docker hub`
  - Clicked on `Create repository`
  - Made a name `dtown-1` and set it to `public`
 
-- How to authenticate with DockerHub via CLI using Dockerhub credentials
-  - what credentials would you recommend providing?
-
+ From `Account settings` go to `security`
+  - Clicked on `new access token` created a name on the token and set the permissons 
+  - From the command line `docker login -u dtown12` 
+  - Put the token contents in as the password 
+  
 - How to push container image to Dockerhub (without GitHub Actions)
-
-- `docker push dtown12/dtown-1:latest`
+ - `docker push dtown12/dtown-1:latest`
 
 ## Github Actions
 
