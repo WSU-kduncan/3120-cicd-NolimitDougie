@@ -65,7 +65,10 @@ From the Github repo `3120-cicd-NolimitDougie`
 - Put in my Docker Hub password in for the secret
 
 - Behavior of GitHub workflow
-  - what does it do and when
+   The workflow builds and pushes images to Dockerhub, while authenticating with your Dockerhub username & access token. 
+   It occurs when changes are pushed to the GitHub repo
+
+
   - what variables in workflow are custom to your project
     - think may need to be changed if someone else is going to use it or you reuse it
 
