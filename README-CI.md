@@ -56,7 +56,7 @@ From `Docker hub`
 
 ## Github Actions
 
-From the Github repo '3120-cicd-NolimitDougie`
+From the Github repo `3120-cicd-NolimitDougie`
 
 - Clicked on `settings`
 - On the left of the tool bar went and found `Secerets and variables` then clicked on `actions`
