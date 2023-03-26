@@ -47,9 +47,22 @@ The purpose of this part is to work with building images from stratch and leanin
 - Add to `README-CI.md` to include:
 
 - Process to create public repo in DockerHub
+
+From `Docker hub` 
+ - Clicked on `Repositories`
+ - Clicked on `Create repository`
+ - Made a name and set it to `public`
+
+
 - How to authenticate with DockerHub via CLI using Dockerhub credentials
   - what credentials would you recommend providing?
+
+
 - How to push container image to Dockerhub (without GitHub Actions)
+
+
+
+
 - Configuring GitHub Secrets
   - How to set a secret
   - What secret(s) are set for this project
