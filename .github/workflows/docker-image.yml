@@ -40,5 +40,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ dtown12 }}/dtown-1:latest      
+            ${{ secrets.DTOWN12 }}/dtown-1:latest      
             ${{ steps.meta.outputs.tags }}
