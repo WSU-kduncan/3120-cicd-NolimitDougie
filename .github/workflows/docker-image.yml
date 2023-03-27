@@ -14,12 +14,6 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
-        
-      - name: Build the Docker image
-        run: docker build -t webserver .
-        
-      - name: Run container from image
-        run: docker run -d --name httpd -p 80:80 dtown12/dtown-1
       
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
