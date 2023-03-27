@@ -6,12 +6,18 @@ on:
       - 'main'
 
 jobs:
-  push_to_registry:
+  build-push:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
+        
+      - name: Build the Docker image
+        run: docker build -t dtimage .
+        
+      - name: Run container from image
+       run: docker run -d --name httpd -p 80:80 dtimage
       
       - name: Log in to Docker Hub
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
