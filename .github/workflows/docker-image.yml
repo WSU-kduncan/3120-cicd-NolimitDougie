@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'main'
+env:
+ dtown12/dtown-1: webserver
 
 jobs:
   build-push:
