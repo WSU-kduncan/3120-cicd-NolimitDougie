@@ -66,7 +66,7 @@ From the Github repo `3120-cicd-NolimitDougie`
 
 - Behavior of GitHub workflow
    The workflow builds and pushes images to Dockerhub, while authenticating with your Dockerhub username & access token. 
-   It occurs when changes are pushed to the GitHub repo
+   It occurs when changes are `pushed` to the GitHub repo
 
 
   - what variables in workflow are custom to your project
