@@ -72,6 +72,10 @@ From the Github repo `3120-cicd-NolimitDougie`
   - what variables in workflow are custom to your project
     - think may need to be changed if someone else is going to use it or you reuse it
 
+ These customs variables in my workflow could change if it's reused the `name` , `username`,` password`, ` images`, `tags` also the `context`.
+
+
+
 ### Resources
 
 - [GitHub Actions - Docker Docs](https://docs.docker.com/ci-cd/github-actions/)
