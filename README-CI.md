@@ -2,19 +2,20 @@
 
 Dougie Townsell 
 
-## Objectives
+## Overview 
 
-- Containerize an application with Docker
-- Automate the project pipeline with GitHub Actions - continuous integration
+- CI Project Overview
+ 
+The purpose of this part is to work with building images from stratch and leaninng how to create images from a docker file. Docker images are a template configured with source codes, libraries, external dependencies, tools, and other miscellaneous files that is needed for the container. Containers are isolated processes that excutes code from the docker image 
+
+## Diagram 
+
+![Diagram](./P4.png)
 
 ## Part 1 - Dockerize it
 
 ### Documentation
 
-- CI Project Overview
- 
-The purpose of this part is to work with building images from stratch and leaninng how to create images from a docker file. Docker images are a template configured with source codes, libraries, external dependencies, tools, and other miscellaneous files that is needed for the container. Containers are isolated processes that excutes code from the docker image 
- 
 - Run Project Locally
   - how to install docker + dependencies (WSL2, for example)
   
