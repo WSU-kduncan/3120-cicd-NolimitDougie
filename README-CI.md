@@ -10,7 +10,7 @@ The purpose of this part is to work with building images from stratch and leanin
 
 ## Diagram 
 
-![Diagram](./P4.png)
+![Diagram](./P4-2.png)
 
 ## Part 1 - Dockerize it
 
