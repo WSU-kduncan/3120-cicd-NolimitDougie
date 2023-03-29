@@ -33,13 +33,6 @@ The purpose of this part is to work with building images from stratch and leanin
   - `localhost:80`
 
 ## Part 2 - GitHub Actions and DockerHub
-
-### Documentation
-
-- Add to `README-CI.md` to include:
-
-- Process to create public repo in DockerHub
-
 ## Docker Hub
 
 From `Docker hub` 
