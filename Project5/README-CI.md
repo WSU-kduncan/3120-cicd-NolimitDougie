@@ -73,8 +73,7 @@ The GitHub workflow is triggered after a `push` is made to the `main` branch or 
 
 - Link to Docker Hub repository (as additional proof)
 
-
-
+[Dtown12/dtown-1 Docker Repository](https://hub.docker.com/repository/docker/dtown12/dtown-1/general)
 
 ### Resources
 
