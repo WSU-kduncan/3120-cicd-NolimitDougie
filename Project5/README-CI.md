@@ -1,38 +1,7 @@
 # Project 5
 
-- [Objectives](#Objectives)
-- [Project Overview](#Project-Overview)
-- [Part 1 - Semantic Versioning](#part-1---semantic-versioning)
-- [Part 2 - Deployment](#Part-3---Deployment)
-- [Part 3 - Diagramming](#Part-4---Diagramming)
-- [Submission](#Submission)
-- [Rubric](Rubric.md)
+Dougie Townsell 
 
-## Objectives
-
-- Implement semantic versioning for images using `git tag` metadata in Actions
-- Use `webhook`s to keep production up to date
-
-## Project Overview
-
-For this project you will be continuing to use your `cicd` repo made in project 4.
-
-The documentation bullet points are written linearly.  As long as the information can be found, I am okay with you organizing it nicely.
-
-## Parts & Milestones
-
-Completion of each milestone **by the date specified for the milestone** will get you 5%
-of extra credit per milestone date met. To qualify, you must submit your project on the milestone date to the Dropbox for Project 5 in Pilot.
-
-All parts for the project are due 4/12
-
-- [Part 1 - Semantic Versioning](#Part-1---Semantic-Versioning)
-  - Milestone due 4/3
-- [Part 2 - Deployment](#Part-2---Deployment)
-  - Milestone due 4/10
-- [Part 3 - Diagramming](#Part-3---Diagramming)
-  - All parts are due 4/12
-  - No EC
 
 ## Part 1 - Semantic Versioning
 
@@ -66,7 +35,6 @@ To push the tagged commit, use `git push origin v#.#.#`.
 The GitHub workflow is triggered after a `push` is made to the `main` branch or a `tagged commit` is pushed. It builds a new Docker image from the Dockerfile in this repository and pushes it to DockerHub. The image in DockerHub will be tagged with latest.
 
 
-
 - Link to Docker Hub repository (as additional proof)
 
 [Dtown12/dtown-1 Docker Repository](https://hub.docker.com/repository/docker/dtown12/dtown-1/general)
@@ -75,9 +43,6 @@ The GitHub workflow is triggered after a `push` is made to the `main` branch or 
 
 - [GitHub - docker/metadata-action](https://github.com/docker/metadata-action)
 - [Docker - Manage Tag Labels](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/)
-
-
-
 
 
 ## Part 2 - Deployment
@@ -134,18 +99,3 @@ You can use whatever tools you would like, here are some recommended tools that 
 - [Eraser - Cloud Diagrams](https://docs.tryeraser.com/docs/cloud-diagrams)
 - PowerPoint and OneNote are still good choices
 
-## Submission
-
-1. Commit and push your changes to your repository. Verify that these changes show in your course  
-   repository.
-
-Your repo should contain:
-   - `README-CD.md` (and `README-CI.md` from P4)
-   - `website` folder with website pages
-   - `Dockerfile`
-   - GitHub action `yml` file in `.github/workflows`
-   - `deployment` folder with:
-     - container restart script
-     - `hook` definition file
-
-2. In Pilot, paste the link to your project folder.
