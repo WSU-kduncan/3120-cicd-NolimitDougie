@@ -20,7 +20,7 @@ Right now, you likely `tag` the image with `latest`.  This means versions are ne
 Create `README-CD.md` in main folder of your repo that details the following:
 
 - CD Project Overview
-  - (what are you doing, why, what tools)
+-  For this project we are updating our workflow so GitHub action can create a event when a tag is pushed and triggers the workflow.
 
 - How to generate a `tag` in `git` / GitHub
 
