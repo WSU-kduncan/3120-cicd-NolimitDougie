@@ -67,6 +67,7 @@ To push the tagged commit, use `git push origin v#.#.#`.
 - Behavior of GitHub workflow
   - what does it do and when
 
+The GitHub workflow is triggered after a `push` is made to the `main` branch or a `tagged commit` is pushed. It builds a new Docker image from the Dockerfile in this repository and pushes it to DockerHub. The image in DockerHub will be tagged with latest.
 
 
 
