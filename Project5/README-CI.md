@@ -52,15 +52,32 @@ Create `README-CD.md` in main folder of your repo that details the following:
 
 - CD Project Overview
   - (what are you doing, why, what tools)
+
+
 - How to generate a `tag` in `git` / GitHub
+
+
+
+
 - Behavior of GitHub workflow
   - what does it do and when
+
+
+
+
 - Link to Docker Hub repository (as additional proof)
+
+
+
 
 ### Resources
 
 - [GitHub - docker/metadata-action](https://github.com/docker/metadata-action)
 - [Docker - Manage Tag Labels](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/)
+
+
+
+
 
 ## Part 2 - Deployment
 
