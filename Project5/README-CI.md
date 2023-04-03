@@ -56,6 +56,9 @@ Create `README-CD.md` in main folder of your repo that details the following:
 
 - How to generate a `tag` in `git` / GitHub
 
+Add your changes using `git add <file_names>` Then commit the changes using git commit. Then to create the tag for the commit use `git tag -a v#.#.#`. To push the tagged commit, use `git push origin v#.#.#`.
+
+
 
 
 
