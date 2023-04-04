@@ -20,7 +20,7 @@ Right now, you likely `tag` the image with `latest`.  This means versions are ne
 Create `README-CD.md` in main folder of your repo that details the following:
 
 - CD Project Overview
--  For this project we are updating our workflow so GitHub action can create a event when a tag is pushed and triggers the workflow.
+-  For this project we using semantic versioning in conjunction with my Docker image. We are updating our workflow so GitHub action can create a event when a tag is pushed and triggers the workflow. Semantic versioning would allow for all previous and current images to be recorded in DockerHub. This increases traceability by allowing the you to view changes that have been made over time. 
 
 - How to generate a `tag` in `git` / GitHub
 
