@@ -5,13 +5,9 @@ on:
     branches: [main]
     tags:
       - "v*.*.*"
-    
-    
-env:
- dtown12/dtown-1: dtown12/dtown-1
 
 jobs:
-  build-push:
+ push_to_registry:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     steps:
