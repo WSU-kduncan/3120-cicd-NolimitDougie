@@ -66,6 +66,33 @@ For this piece, use an EC2 instance.
 Update `README-CD.md` in main folder of your repo to include:
 
 - How to install Docker to your instance
+
+`sudo apt-get remove docker docker-engine docker.io containerd runc`
+
+`sudo apt-get update`
+
+`sudo apt-get install \
+  ca-certificates \
+  curl \
+  gnupg`
+  
+`sudo mkdir -m 0755 -p /etc/apt/keyrings`
+
+`curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg`
+
+`echo \
+"deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+"$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
+
+`sudo apt-get update`
+
+`sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
+
+`sudo docker run hello-world`
+
+
+
 - Container restart script
   - Justification & description of what it does
   - Where it should be on server (if someone were to use your setup)
