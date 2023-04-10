@@ -5,21 +5,13 @@ Dougie Townsell
 
 ## Part 1 - Semantic Versioning
 
-Right now, you likely `tag` the image with `latest`.  This means versions are never kept.  The solution we will use is to use `git` `tagging`.  A GitHub Action can use the metadata to generate a set of tags for an image.
-
-### Tasks
-
-- Practice creating `tag` for your `commit` using [semantic versioning](https://semver.org/)
-- Amend your GitHub Action workflow to:
-  - run when a `tag` is `push`ed
-  - use the `docker/metadata-action` to generate a set of tags from your repository
-  - push images to DockerHub with an image tags based on your `git` `tag` version AND `latest`
 
 ### Documentation
 
 Create `README-CD.md` in main folder of your repo that details the following:
 
 - CD Project Overview
+
 -  For this project we using semantic versioning in conjunction with my Docker image. We are updating our workflow so GitHub action can create a event when a tag is pushed and trigger the workflow. Semantic versioning would allow for all previous and current images to be recorded in DockerHub. This increases traceability by allowing the you to view changes that have been made over time. 
 
 - How to generate a `tag` in `git` / GitHub
@@ -39,27 +31,7 @@ The GitHub workflow is triggered after a `push` is made to the `main` branch or 
 
 [Dtown12/dtown-1 Docker Repository](https://hub.docker.com/repository/docker/dtown12/dtown-1/general)
 
-### Resources
-
-- [GitHub - docker/metadata-action](https://github.com/docker/metadata-action)
-- [Docker - Manage Tag Labels](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/)
-
-
 ## Part 2 - Deployment
-
-### Tasks
-
-For this piece, use an EC2 instance.
-
-- Install docker on the instance
-- `pull` and `run` a container from your DockerHub image
-  - confirm you can access your service running in the container from a browser
-- Create a script to pull a new image from DockerHub and restart the container
-  - put a copy of the script in a folder named `deployment` in your repo
-- Set a listener / hook to receive messages using [adnanh's `webhook`](https://github.com/adnanh/webhook)
-- Create a hook - when a message is received run the container restart script
-  - put a copy of the hook configuration in a folder named `deployment` in your repo
-- Configure either GitHub or DockerHub to send a message to the listener / hook
 
 ### Documentation
 
@@ -92,7 +64,6 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
 `sudo docker run hello-world`
 
 
-
 - Container restart script
   - Justification & description of what it does
   - Where it should be on server (if someone were to use your setup)
@@ -100,11 +71,15 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
 
 - Setting up a `webhook` on the server
   - How to install [adnanh's `webhook`](https://github.com/adnanh/webhook) to server
+  - Command to install webhook goes here. 
+
+
   - How to start the `webhook`
     - since our instance's reboot, we need to handle this
 
 
 - `webhook` task definition file
+
   - Description of what it does
   - Where it should be on server (if someone were to use your setup)
 
@@ -112,14 +87,10 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
 
 - How to configure GitHub OR DockerHub to message the listener 
 
-`Go to repository page`
+`On Docker Hub go to your repository page`
 `Click Webhooks`
-`Enter a name and enter this URL: http://<EC2 elastic IP>:9000/hooks/
+`Enter a name and enter this URL: http://<EC2 elastic IP>:9000/hooks/redeploy-webhook
 `Click Create`
-
-
-
-
 
 
 - RECORD your whole workflow process - from `commit` and `push` to your server getting a fresh image
