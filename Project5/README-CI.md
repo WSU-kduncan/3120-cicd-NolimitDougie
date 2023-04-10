@@ -87,9 +87,11 @@ The script is located inside of the `WebHook/refresh.sh`. To get the latest vers
 
 - How to configure GitHub OR DockerHub to message the listener 
 
-`On Docker Hub go to your repository page`<br>
-`Click Webhooks`<br>
-`Enter a name and enter this URL: http://<EC2 elastic IP>:9000/hooks/redeploy-webhook
+`On Docker Hub go to your repository page`
+
+`Click Webhooks`
+
+`Enter a name and enter this URL: http://<EC2 elastic IP>:9000/hooks/redeploy-webhook`
 
 `Click Create`
 
