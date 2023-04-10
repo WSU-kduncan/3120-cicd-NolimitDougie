@@ -69,26 +69,23 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
 The script is located inside of the `WebHook/refresh.sh`. To get the latest version, it pulls from DockerHub, stops/deletes the existing instance, then runs a new one. 
 
 
+## WebHook Set-up 
+
 - Setting up a `webhook` on the server
   - How to install [adnanh's `webhook`](https://github.com/adnanh/webhook) to server
   
   - Command to install webhook goes here. 
 
- `sudo apt-get install webhook`
+   `sudo apt-get install webhook`
+   
+    created `/etc/webhook.conf` then passed in the contents from `/hooks.json` to set up the webhook configuration file it executes the container `refresh.sh` script when it is triggered
+   
+   `sudo systemctl start webhook`
+  
 
+## WebHook Task Definition File
 
-## Instalation of WebHook
-
-  - How to start the `webhook`
-    - since our instance's reboot, we need to handle this
-
-
-- `webhook` task definition file
-
-  - Description of what it does
-  - Where it should be on server (if someone were to use your setup)
-
-
+`hooks.json` creates an endpoint named `redeploy-webhook` that will call refresh.sh script with the working directory `/home/ubuntu/`. It should be located at /etc/webhook.conf
 
 - How to configure GitHub OR DockerHub to message the listener 
 
