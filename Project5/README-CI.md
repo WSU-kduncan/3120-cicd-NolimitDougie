@@ -71,8 +71,13 @@ The script is located inside of the `WebHook/refresh.sh`. To get the latest vers
 
 - Setting up a `webhook` on the server
   - How to install [adnanh's `webhook`](https://github.com/adnanh/webhook) to server
+  
   - Command to install webhook goes here. 
 
+ `sudo apt-get install webhook`
+
+
+## Instalation of WebHook
 
   - How to start the `webhook`
     - since our instance's reboot, we need to handle this
