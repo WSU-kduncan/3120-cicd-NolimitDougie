@@ -64,9 +64,9 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
 `sudo docker run hello-world`
 
 
-- Container restart script
-  - Justification & description of what it does
-  - Where it should be on server (if someone were to use your setup)
+## Container restart script
+
+The script is located inside of the `WebHook/refresh.sh`. To get the latest version, it pulls from DockerHub, stops/deletes the existing instance, then runs a new one. 
 
 
 - Setting up a `webhook` on the server
