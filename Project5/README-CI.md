@@ -112,14 +112,3 @@ The script is located inside of the `WebHook/refresh.sh`. To get the latest vers
 ## Part 3 - Diagramming
 
 Include a diagram (or diagrams) of the continuous deployment process.  A good diagram will label tools used and how things connect.  This diagram would probably look best near your project description.
-
-### Resources
-
-You can use whatever tools you would like, here are some recommended tools that people use
-
-- [Lucid Charts](https://www.lucidchart.com/pages/)
-- [Textographo](https://textografo.com/)
-- [Mermaid - new markdown feature](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
-- [Eraser - Cloud Diagrams](https://docs.tryeraser.com/docs/cloud-diagrams)
-- PowerPoint and OneNote are still good choices
-
