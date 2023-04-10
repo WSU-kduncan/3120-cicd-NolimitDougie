@@ -89,8 +89,8 @@ The script is located inside of the `WebHook/refresh.sh`. To get the latest vers
 
 `On Docker Hub go to your repository page`<br>
 `Click Webhooks`<br>
-`Enter a name and enter this URL: http://<EC2 elastic IP>:9000/hooks/redeploy-webhook<br>
-`Click Create`<br>
+`Enter a name and enter this URL: http://<EC2 elastic IP>:9000/hooks/redeploy-webhook <br>
+`Click Create`
 
 
 - RECORD your whole workflow process - from `commit` and `push` to your server getting a fresh image
