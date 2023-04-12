@@ -5,6 +5,9 @@ Dougie Townsell
 
 ## Part 1 - Semantic Versioning
 
+## Diagram
+
+![ Project 5 Diagram](./P5 Deployment -1.png)
 
 ### Documentation
 
@@ -105,7 +108,3 @@ The script is located inside of the `WebHook/refresh.sh`. To get the latest vers
 - [Using GitHub actions and `webhook`s](https://levelup.gitconnected.com/automated-deployment-using-docker-github-actions-and-webhooks-54018fc12e32)
 - [Using DockerHub and `webhook`s](https://blog.devgenius.io/build-your-first-ci-cd-pipeline-using-docker-github-actions-and-webhooks-while-creating-your-own-da783110e151)
   - Note: this has been the method focused on in lecture
-
-## Part 3 - Diagramming
-
-Include a diagram (or diagrams) of the continuous deployment process.  A good diagram will label tools used and how things connect.  This diagram would probably look best near your project description.
