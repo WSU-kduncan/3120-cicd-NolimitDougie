@@ -7,7 +7,7 @@ Dougie Townsell
 
 ## Diagram
 
-![ Project 5 Diagram](./Deployment.png)
+![ Project 5 Diagram](./Deployment.jpg)
 
 ### Documentation
 
